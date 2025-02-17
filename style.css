@@ -1,0 +1,144 @@
+body {
+	background-color: #403047;
+	/* color: #09122c; */
+	color: #441752;
+	font-family: "Open Sans", serif;
+	font-size: 17px;
+	font-weight: lighter;
+	text-align: center;
+}
+
+h1,
+h2 {
+	font-family: "Roboto", serif;
+}
+
+h1 {
+	color: #872341;
+	font-size: 32px;
+	font-weight: 900;
+	margin-top: -20%;
+}
+
+h2 {
+	color: #be3144;
+	font-size: 22px;
+	font-weight: 700;
+}
+
+a {
+	text-decoration: none;
+	font-weight: 400;
+}
+
+/* ul {
+	list-style: none;
+}
+
+li {
+	display: inline;
+	margin: 0 10px;
+} */
+
+.card-white {
+	width: 40%;
+	background-color: white;
+	margin: 2% auto;
+	padding: 3%;
+	text-align: center;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+}
+
+.profile-header {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.banner {
+	width: 100%;
+	height: 15em;
+	object-fit: cover;
+}
+
+.round-logo {
+	width: 25%;
+	border-radius: 50%;
+	border: 5px solid white;
+	position: relative;
+	bottom: 100px;
+	left: 20px;
+}
+
+.card-logo {
+	width: 7%;
+	display: flex;
+	align-content: flex-start;
+	flex-direction: row;
+	margin-left: 2%;
+	margin-top: -1%;
+}
+
+.margin-top-negative {
+	margin-top: -3%;
+}
+
+.purple-link-button {
+	background-color: #441752;
+	color: white;
+	padding: 1%;
+	border-radius: 5px;
+	display: inline-block;
+	margin-top: 1%;
+}
+
+.purple-link-button:hover {
+	background-color: #872341;
+	transition-duration: 0.5s;
+	/* color: rgba(255, 199, 120, 0.7); */
+}
+
+.list-item {
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.purple-logo-filter {
+	filter: invert(12%) sepia(30%) saturate(3819%) hue-rotate(264deg)
+		brightness(100%) contrast(99%);
+}
+
+.purple-filter {
+	filter: invert(12%) sepia(30%) saturate(3819%) hue-rotate(264deg)
+		brightness(100%) contrast(99%);
+}
+
+.purple-filter:hover {
+	filter: invert(19%) sepia(22%) saturate(5260%) hue-rotate(315deg)
+		brightness(91%) contrast(93%);
+	transition-duration: 0.5s;
+}
+
+@media (max-width: 540px) {
+	/* Pour un écran < 540px, cette classe CSS s'applique */
+	.container {
+		width: 300px;
+	}
+}
+
+@media (max-width: 720px) {
+	/* Pour un écran < 720px, cette classe CSS s'applique */
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 960px) {
+	/* Pour un écran < 960px, cette classe CSS s'applique */
+	.container {
+		width: 700px;
+	}
+}
